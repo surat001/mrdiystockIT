@@ -1,0 +1,128 @@
+/*ส่วนของการแสดงตาราง*/
+/* สไตล์สำหรับ content */
+.content {
+  padding: 20px;
+  background-color: #faf8f5; /* สีพื้นหลังสำหรับพื้นที่เนื้อหา */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* หัวข้อ */
+.content h1 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  font-weight: bold; 
+}
+
+/* สไตล์สำหรับ table */
+/* สไตล์สำหรับ table */
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: #8f8e8e;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+border: 2px solid #000; /* ขอบตารางสีดำ */
+}
+
+table thead {
+background-color: #e1e9ff; /* สีหัวตาราง */
+color: rgb(0, 0, 0);
+border-bottom: 2px solid #8f8e8e; /* ขอบด้านล่างของหัวตาราง */
+}
+
+table thead th {
+text-align: left;
+padding: 10px;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+text-align: center;
+border-right: 1px solid #8f8e8e; /* ขอบสีดำด้านขวาของหัวตาราง */
+}
+
+table tbody tr:nth-child(odd) {
+background-color: #f9f9f9; /* สีพื้นหลังสำหรับแถวคี่ */
+}
+
+table tbody tr:nth-child(even) {
+background-color: #f1f1f1; /* สีพื้นหลังสำหรับแถวคู่ */
+}
+
+table tbody tr:hover {
+background-color: #e6e6e6; /* สีเมื่อชี้เมาส์ */
+}
+
+table td {
+padding: 10px;
+font-size: 14px;
+color: #333;
+text-align: left;
+border-bottom: 1px solid #8f8e8e; /* ขอบด้านล่างสีดำ */
+border-right: 1px solid #8f8e8e; /* ขอบด้านขวาสีดำ */
+text-align: center;
+}
+
+table td img {
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+max-width: 100px; /* ปรับขนาดตามความเหมาะสม */
+height: 50px; /* รักษาอัตราส่วนของรูปภาพ */
+display: block;
+margin: 0 auto; /* จัดกึ่งกลางรูปภาพในเซลล์ */
+}
+
+/* สไตล์สำหรับข้อความ */
+table td {
+font-family: var(--bs-body-font-family);
+font-size: 16px;
+}
+
+
+/*จบส่วนของการแสดงตาราง*/
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+#editModal .form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+#editModal .form-group label {
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+#editModal input[type="text"] {
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 100%;
+}
+
+#editModal button {
+cursor: pointer;
+}
+
+.dropdown-menu {
+max-width: 250px;
+right: 0; /* บังคับให้เมนูอยู่ชิดขอบขวา */
+transform: translateX(-10%);
+}
+
+.user-menu .user-header {
+background-color: #01013C;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+

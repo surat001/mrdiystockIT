@@ -1,0 +1,15 @@
+/* ปรับขนาด SweetAlert2 Popup */
+.custom-popup-class {
+    width: 400px !important;
+}
+
+/* ปรับขนาดช่อง input ของ SweetAlert2 */
+.swal2-input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100% !important;  /* ให้กว้างเต็ม popup */
+    max-width: 330px !important; /* ไม่ให้กว้างเกินไป */
+}
+

@@ -1,0 +1,67 @@
+.content1 {
+    padding: 20px;
+    background-color: #faf8f5; /* สีพื้นหลังสำหรับพื้นที่เนื้อหา */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  .header-section2 h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+.header-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.search-form2 {
+    margin-top: 25px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #6d34341a;
+}
+
+.search-row2 {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.form-group2 {
+    display: flex;
+    align-items: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.form-group2 label {
+    
+    margin-bottom: 5px; /* เพิ่มระยะห่างเล็กน้อยระหว่าง label และกล่องข้อความ */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group2 select,
+.form-group2 input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px; /* ระยะห่างระหว่างคอลัมน์ */
+  }
+
+  .form-row .form-group {
+    flex: 1; /* ทำให้ช่องกรอกข้อมูลขนาดเท่ากัน */
+  }
